@@ -13,7 +13,8 @@ function LandingPage() {
               <div className='w-fit flex'>
                 {index === 1 && <motion.div initial={{width:0}} animate={{width:"9vw"}} transition={{ease:[0.76, 0, 0.24, 1],duration: 1}} className='w-[9vw] h-[5vw] relative -bottom-[1vw] bg-red-500 bg-[url("./tag.jpg")] bg-cover rounded-md'>
                                 </motion.div>}
-                <h1 className='uppercase text-[6.5vw] leading-[92px] tracking-tighter font-[founders_Grotesk] font-medium'>
+                <h1 className='uppercase text-[6.5vw] leading-[92px] tracking-tighter font-[founders_Grotesk]
+                '>
                 {item}
                 </h1>
               </div>
